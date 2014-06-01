@@ -9,7 +9,8 @@ class Person
   end
   # Greet displays a greeting.
   def greet
-    puts "-----Greetings to you #{@name}-----"
+    puts '------------------------'
+    puts "Greetings to you #{@name}"
   end
 
   # Joke displays a joke.
@@ -38,7 +39,7 @@ class Person
 end
 
 # Create an instance of the class and call all three methods on it.
-lia = Person.new('Lia')
-lia.greet
-lia.joke
-lia.fact
+# lia = Person.new('Lia')
+# lia.greet
+# lia.joke
+# lia.fact
