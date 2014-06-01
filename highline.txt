@@ -1,0 +1,14 @@
+# Create a new file called highline.txt to work on this exercise.
+# Install highline and explore its documentation.
+# Write three comments on what it does.
+# Write three comments on how to use it.
+
+highline :
+
+1. simplifies console interatction
+2. automatically will do validation and return a result
+3. User code can simply specify the question to ask and any details about user interaction, and highline does the rest
+
+1. install and bundle
+2. require highline in your project
+3. just write your code but using highline syntax
