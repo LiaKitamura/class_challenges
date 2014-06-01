@@ -11,4 +11,4 @@ highline :
 
 1. install and bundle
 2. require highline in your project
-3. just write your code but using highline syntax
+3. just write your code but using highline syntax	
