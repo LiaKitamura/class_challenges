@@ -7,7 +7,7 @@ class Greeter
   end
 
   def display
-    puts "#{@greeting}"
+    puts @greeting
   end
 end
 
