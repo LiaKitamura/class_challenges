@@ -12,7 +12,7 @@ module Lia
     end
 
     def display
-      puts "#{@quote}"
+      puts @quote
     end
   end
 
