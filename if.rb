@@ -18,8 +18,8 @@ puts 'Big decisions. Where do you want to live?'
 move = gets.chomp.downcase
 
 
-laActivities = ['clubbing', 'downtown', 'music']
-aactivities =  ['hipsters', 'texas', 'bbq']
+laactivities = %w(clubbing downtown music)
+aactivities =  %w(hipsters texas bbq)
 nyactivities = ['statue of liberty', 'walking the streets', 'broadway show']
 
 if move == 'los angeles'
@@ -27,7 +27,7 @@ if move == 'los angeles'
   puts 'here in Los Angeles you have some awesome activites to choose from.'
   puts ''
   puts 'What would you like to check out?'
-  puts laActivities
+  puts laactivities
   go = gets.chomp.downcase
 end
 
@@ -38,7 +38,7 @@ elsif go == 'downtown'
   puts 'Your night downtown started great until a sketchy bum started
   following you around and ended up mugging you and even taking your shoes.
   what a dick.'
-elsif go == 'music'
+else
   puts "free music, free beer can't get better then that"
 end
 
@@ -56,14 +56,14 @@ if go1 == 'hipsters'
 elsif go1 == 'texas'
   puts 'Yep you just spent 4 hours talking to a fake cowboy about trucks.
   but hey you made a friend.'
-elsif go1 == 'bbq'
+else
   puts 'I see you are starting your texas fitness.'
 end
 
 if move == 'new york city'
   puts 'You chose great old new york city. good luck'
   puts ''
-  puts 'So in this very non pretentious city. Where would thoust like to go?'
+  puts 'The Big Apple. Where would thoust like to go?'
   puts nyactivities
   go2 = gets.chomp.downcase
 end
@@ -74,6 +74,6 @@ if go2 == 'status of liberty'
 elsif go2 == 'walking the streets'
   puts "You might not have made the best decisions tonight. Next time if a
   manly looking woman approaches you, don't accept anything she is offering"
-elsif go2 == 'broadway show'
+else
   puts 'What a safe and musical night you had. Now rest easy little one'
 end
